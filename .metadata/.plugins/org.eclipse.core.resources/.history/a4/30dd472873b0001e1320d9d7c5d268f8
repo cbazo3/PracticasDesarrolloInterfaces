@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="914e881c-6557-4cc0-a82a-e96c6d6433b4">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="80" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="480" height="80" uuid="3259fefb-4bad-44d3-ac70-5cefbb7bc5d3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Constantia" size="47" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Horario escolar
+]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="9" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement x="280" y="0" width="100" height="42" uuid="5dbc7d59-affd-4bea-aa18-6e80c1d2d9fb"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JUEVES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="0" width="100" height="42" uuid="8001e8e3-6ade-4fef-ad88-366e22f22626"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MARTES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="0" width="100" height="42" uuid="b985e1a6-a0b8-460d-9891-022c43647e1f"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[VIERNES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="1" width="80" height="40" uuid="a29d755e-eb59-4f9e-81be-253f7c79d355"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LUNES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="0" width="100" height="42" uuid="8ddeca40-9442-488a-b9f5-9d573ed2c3f5"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MIÉRCOLES]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="200" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="80" height="124" uuid="00fbb2b0-f024-4a4b-8d87-48a0029c19d4"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Macarrones con queso
+Lenguado al limón
+Manzana]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="0" width="100" height="124" uuid="31cfd053-b214-4e45-a789-8df36bf50765"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Garbanzos con chorizo
+Lomo con salsa de setas
+Yogur natural]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="0" width="100" height="124" uuid="1af1ad7f-8a57-4072-a4fc-b63eab84a285"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Lentejas con arroz
+Pechugas rebozadas
+Helado de nata]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="0" width="100" height="124" uuid="9d65cfb4-3816-4f2c-bf98-4f005df93efe"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Arroz con tomate
+Bacalao rebozado
+Fresas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="0" width="100" height="124" uuid="5717e0ed-d80d-4939-bcf7-c789d17d3659"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Pizza de jamón york y queso
+o
+Hamburguesa con tomate y queso
+Platano]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="57" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Composite Element" pageWidth="480" pageHeight="842" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="16ec1ab5-4408-40e0-bca4-5054ce41ca41">
+	<property name="ireport.callouts" value="callouts.1.fg=0,0,0&#xA;callouts.1.text=Place in the title section the elements that define your Composite Element and set their properties&#xA;callouts.1.bounds=485,0,650,40&#xA;callouts.1.bg=255,255,0&#xA;"/>
+	<title>
+		<band height="78">
+			<textField>
+				<reportElement x="0" y="0" width="480" height="78" uuid="9efaf283-ca41-4037-a3ce-473721c5d91e">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Constantia" size="53"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Horario escolar
+]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="80" height="70" uuid="3a4cc708-e855-4d14-b4b6-60385cacf45d"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[Macarrones con queso
+Lenguado al limón
+Manzana]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="0" width="100" height="70" uuid="a7794750-3a73-4e4f-a024-6b57514b9541"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[Garbanzos con chorizo
+Lomo con salsa de setas
+Yogur natural]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="0" width="100" height="70" uuid="4ad8505a-d178-4569-a7a5-81e928c830cf"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[Lentejas con arroz
+Pechugas rebozadas
+Helado de nata]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="280" y="0" width="100" height="70" uuid="db0e4ef8-db28-4eaa-a2df-1061370004b5"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[Arroz con tomate
+Bacalao rebozado
+Fresas]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="0" width="100" height="70" uuid="9746f597-2c71-4c98-ab8f-d23733680537"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[Pizza de jamón york y queso
+o
+Hamburguesa con tomate y queso
+Platano]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="1" width="80" height="36" uuid="a1fac97a-230a-428f-a561-4f98e8b77116"/>
+				<textElement textAlignment="Center">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[LUNES]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="1" width="100" height="36" uuid="4054854a-816e-43b0-ac4b-8e246aee5400"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[MARTES
+]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="0" width="100" height="38" uuid="2906b8a4-dcce-44b1-9eb9-51d7217a5838"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[MIERCOLES
+]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="280" y="1" width="100" height="36" uuid="643f1116-baea-435e-9c22-762f02c195f8"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[JUEVES
+]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="1" width="100" height="36" uuid="c884465d-30f3-4e6c-b521-c2d828e34b35"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[VIERNES]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+</jasperReport>
